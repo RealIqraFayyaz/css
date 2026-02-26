@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-image: url("elephant.jpg");
+  background-size: cover;
+  height:700px;
+  background-attachment: fixed;
+}
+.logo{
+  width:20% ;
+  float: left;
+}
+.nav{
+  width: 60%;
+  float: right;
+  text-align: right;
+  word-spacing: 30px;
+}
+a{
+  color: aliceblue;
+  text-decoration: solid;
+  font-weight: bolder;
+  font-size: medium;
+  font-family: serif;
+}
+button{
+  background-color: red;
+  color: aliceblue;
+  border-radius: 30px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+.con1{
+  text-align: center;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 125%;
+  padding-top: 30% ;
+  font-family:sans-serif;
+}
+.con2{
+  text-align: center;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 225%;
+  padding-top: 0%;
+  font-family: sans-serif;
+}
+.con3{
+  text-align: center;
+  padding-top: 0%;
+}
+
+.clear{
+  clear:both;
+}
+.about{
+      text-align: center;
+      font-style: 1em;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.clr{
+  clear: both;
+}
+.sec3{
+  background-image: url("image2.jpg");
+  background-size: cover;
+  height:700px;
+  margin-top: 18px;
+  background-attachment: fixed;
+
+}
+.warp{
+  padding-top:0%;
+  display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+color:aliceblue;
+}
+.info{
+  width:49%;
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Segoe UI';
+  padding-left: 2%;
+
+}
+.info0{
+  width:49%;
+  float: right;
+  color: white;
+  font-weight: bold;
+  font-size: x-large; 
+  top: 45%;
+  position: relative;
+}
+.proj{
+  font-size: 25px ;
+  font-family: Georgia;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.x{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align:start;
+}
+.y{
+  width: 30%;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size:large;
+  text-align:start;
+}
+p{
+  width:90%;
+}
+.cl{   
+   clear:both;
+  }
+  footer{
+      background-color: rgb(1, 22, 39);
+      margin-block: 0% ;
+      
+  }
+  .put4{
+      color:white;
+      width:40%;
+      padding-left: 10% ;
+  }
+  .get{
+      margin-top:30% ;
+  }
+  .put5{
+      color:white;
+      width:20%;
+  
+  }
+  .put6{
+      color:white;
+      width:20%;   
+  }
+  .my{
+      margin-top: 40%;
+      text-align: end;
+  }
+  .display{
+      padding-top: 8%;
+      padding-bottom: 5%;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      font-size: larger;
+  }
